@@ -1,0 +1,41 @@
+@import 'variables';
+
+/* Inicio css header*/
+.navbar-nav {
+    align-items: center;
+}
+.bg-propio {
+    background-color: $bg-navbar;
+}
+
+.container-fluid {
+
+    .logo {
+        width: 130px;
+        height: 130px;
+        position: fixed;
+        top: 10px;
+        left: 50px;
+    }  
+}
+
+
+.dropdown-menu {
+    background-color: #b2e2f2de !important; 
+}
+.nav-item {
+
+    .img-carrito {
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px 0 5px;
+    }
+
+    .img-perfil {
+        width: 70px;
+        height: 70px;
+    }
+
+}
+
+/* Fin css header */
