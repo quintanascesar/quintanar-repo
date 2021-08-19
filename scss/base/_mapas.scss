@@ -1,0 +1,18 @@
+
+/* Ddesafío Clase 12 - Aplicando SASS Operaciones/Mapas */
+
+$usernoregistrado: (
+    color-card: white,
+);
+
+$userregistrado: (
+    color-card: #b2e2f2de
+);
+
+.card-noregistrado {
+    background-color:  map-get($usernoregistrado, color-card);
+}
+
+.card-registrado {
+    background-color:  map-get($userregistrado, color-card);
+}

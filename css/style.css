@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -243,23 +244,17 @@ h1 {
   color: #605f5f;
   padding: 0% 5% 0% 5%;
 }
-.row .btn-position {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  margin-bottom: 5px;
-  width: 100%;
-}
-.row .btn-position1 {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  margin-bottom: 5px;
-  width: 90%;
-}
 .row .btn-position-menos {
   margin-bottom: 5px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+.row .contador {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .row .btn-position-mas {
   font-family: "Montserrat", sans-serif;
@@ -271,15 +266,68 @@ h1 {
   display: flex;
   justify-content: space-around;
 }
-.row .contador {
-  font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .row .signo-menos {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
+}
+.row .btn-position1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+/* Ddesafío Clase 12 - Aplicando SASS Operaciones/Mapas */
+.card-noregistrado {
+  background-color: white;
+}
+
+.card-registrado {
+  background-color: #b2e2f2de;
+}
+
+/* Ddesafío Clase 12 - Aplicando SASS Operaciones/Mapas */
+.m-propio-2 {
+  margin-top: 15%;
+  margin-bottom: auto;
+}
+
+.contenedor {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.contenedor .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 2rem;
+}
+.contenedor .card-body .registro {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .contenedor {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .contenedor {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .contenedor {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .contenedor {
+    max-width: 700px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
