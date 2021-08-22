@@ -1,8 +1,19 @@
 $font-mont: 'Montserrat', sans-serif;
 
-.m-propio-2 {
-    margin-top: 15%;
+/* Respuesta de card ante menú despegable*/
+@media only screen and (max-width: 1199px) {
+    .m-propio-2 {
+        margin-top: 20%;
+    }
 }
+
+@media only screen and (min-width: 1199px) {
+    .m-propio-2 {
+        margin-top: 10%;
+    }
+}
+/* Respuesta de card ante menú despegable*/
+
 
 
 .contenedor {
@@ -16,11 +27,20 @@ $font-mont: 'Montserrat', sans-serif;
     .card-body {
         flex: 1 1 auto;
         padding: 1rem 2rem;
+        box-shadow: 2px 2px 10px #666;
+        border-radius: 5px;
 
         .registro {
             font-family: $font-mont;
+            font-size: 28px;
+            color: #605f5f;
             text-align: center;
             margin-bottom: 10px;
+        }
+
+        .btn-registro {
+            width: 32%;
+            margin-left: 68%;
         }
     }
 }
