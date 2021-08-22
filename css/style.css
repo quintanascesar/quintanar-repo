@@ -85,10 +85,27 @@ h1 {
   font-size: 30px !important;
 }
 
-.carousel {
-  padding-top: 78px;
+@media only screen and (max-width: 1199px) {
+  .carousel {
+    padding-top: 47px;
+  }
 }
-
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1199px) {
+  .carousel {
+    padding-top: 77px;
+  }
+}
 /* Fin css section 1 */
 /* Inicio section 2 */
 .contenedor-catalogo {
