@@ -147,115 +147,6 @@ h2 {
 }
 
 /* Fin css footer */
-/* Media Querys */
-/* Inicio section 1 - quienes-somos */
-/* Mobile */
-/*@media only screen and (max-width: 400px) {
-    article {
-        width: 250px;
-        height: 50px;
-    }
-    .titulo-nosotros {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-    }
-    .leyenda-nosotros {
-        font-family: 'Montserrat', sans-serif;
-        font-style: italic;
-        font-weight: 900;
-     }
-     .logo {
-        width: 80px;
-        height: 80px;
-        position: absolute;
-        top:  20%;
-        left: 4%;
-    }
-    article {
-        background-color: #c4e4ee5b;
-        width: 300px;
-        height: 500px;
-        margin: 1% 0 95% 0 ;
-    }
-}
-
-/* Tablet */
-/*@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-    .quienes-somos {
-        display: flex;
-        justify-content: center;
-
-        article {
-        background-color: #c4e4ee5b;
-        width: 250px;
-        height: 50px;
-
-            .titulo-nosotros {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 20px;
-            }
-
-            .leyenda-nosotros {
-            font-family: 'Montserrat', sans-serif;
-            font-style: italic;
-            font-weight: 900;
-            }
-
-        }
-
-    }
-    .logo {
-        width: 80px;
-        height: 80px;
-        position: absolute;
-        top:  20%;
-        left: 4%;
-    }
-
-    article {
-        width: 600px;
-        height: 260px;
-        margin: 1% 0 34% 0;
-    }
-} 
-
-/* Desktop */
-/*@media only screen and (min-width: 961px) {
-
-    .quienes-somos {
-        display: flex;
-        justify-content: center;
-
-        article {
-            background-color: #c4e4ee5b;
-            width: 800px;
-            height: 300px;
-            margin: 1% 0 10% 0 ;
-
-            .titulo-nosotros {
-                font-family: 'Montserrat', sans-serif;
-                font-size: 50px;
-            }
-
-            .leyenda-nosotros {
-                font-family: 'Montserrat', sans-serif;
-                font-style: italic;
-                font-weight: 900;
-            }
-
-
-        }
-
-    }
-
-
-
-
-
-} 
-
-/* Fin section 1 - quienes-somos */
 /* Variables header */
 /* Variables header */
 .tittle-store {
@@ -386,6 +277,44 @@ h2 {
 }
 @media (min-width: 576px) {
   .contenedor {
+    max-width: 700px;
+  }
+}
+.quienes-somos {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.quienes-somos .titulo-nosotros {
+  font-family: "Montserrat", sans-serif;
+  flex: 1 1 auto;
+  padding: 1rem 2rem;
+}
+.quienes-somos .leyenda-nosotros {
+  font-family: "Montserrat", sans-serif;
+  flex: 1 1 auto;
+  padding: 1rem 2rem;
+}
+
+@media (min-width: 1200px) {
+  .quienes-somos {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .quienes-somos {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .quienes-somos {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .quienes-somos {
     max-width: 700px;
   }
 }

@@ -1,0 +1,47 @@
+$font-mont: 'Montserrat', sans-serif;
+
+
+.quienes-somos {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+
+    .titulo-nosotros {
+        font-family: $font-mont;
+        flex: 1 1 auto;
+        padding: 1rem 2rem;
+    }
+
+    .leyenda-nosotros {
+        font-family: $font-mont;
+        flex: 1 1 auto;
+        padding: 1rem 2rem;
+    }
+}
+
+    
+
+@media (min-width: 1200px) {
+    .quienes-somos {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .quienes-somos {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .quienes-somos {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px) {
+    .quienes-somos {
+        max-width: 700px;
+    }
+}
