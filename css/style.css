@@ -74,38 +74,32 @@ body {
 /* Variables */
 /* Variables */
 /* Inicio css section 1 */
-h1 {
+h2 {
   font-family: "Montserrat", sans-serif;
+  color: #dfdfdf;
+  text-shadow: 1px 1px 1px black;
 }
 
 .slogan {
   font-family: "Montserrat", sans-serif;
   font-style: italic;
-  color: #7E7E7E;
-  font-size: 30px !important;
+  color: #dfdfdf;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px black;
 }
 
+/* Respuesta de carousel ante menú despegable*/
 @media only screen and (max-width: 1199px) {
   .carousel {
     padding-top: 47px;
   }
 }
-/* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  .logo {
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    top: 10px;
-    left: 20px;
-  }
-}
-/* Desktop */
 @media only screen and (min-width: 1199px) {
   .carousel {
     padding-top: 77px;
   }
 }
+/* Respuesta de carousel ante menú despegable*/
 /* Fin css section 1 */
 /* Inicio section 2 */
 .contenedor-catalogo {
@@ -347,10 +341,10 @@ h1 {
 /* Ddesafío Clase 12 - Aplicando SASS Operaciones/Mapas */
 .m-propio-2 {
   margin-top: 15%;
-  margin-bottom: auto;
 }
 
 .contenedor {
+  height: 100vh;
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
