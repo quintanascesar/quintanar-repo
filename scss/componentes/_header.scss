@@ -10,13 +10,40 @@
 
 .container-fluid {
 
-    .logo {
-        width: 130px;
-        height: 130px;
-        position: fixed;
-        top: 10px;
-        left: 50px;
-    }  
+    
+      
+    /* Mobile */
+    @media only screen and (max-width: 400px) {
+        .logo {
+            width: 70px;
+            height: 70px;
+            position: fixed;
+            top: 10px;
+            left: 20px;
+        }
+    }
+
+    /* Tablet */
+    @media only screen and (min-width: 401px) and (max-width: 960px) {
+        .logo {
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 10px;
+            left: 20px;
+        }
+    }
+
+    /* Desktop */
+    @media only screen and (min-width: 961px) {
+        .logo {
+            width: 130px;
+            height: 130px;
+            position: fixed;
+            top: 10px;
+            left: 50px;
+        }
+    }
 }
 
 
@@ -37,5 +64,7 @@
     }
 
 }
+
+
 
 /* Fin css header */
