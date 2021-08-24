@@ -352,4 +352,29 @@ h2 {
   justify-content: center;
 }
 
+.btn-position-menos-carrito {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% !important;
+}
+
+.btn-position-mas-carrito {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% !important;
+}
+
+.bg-enc-tab {
+  background-color: #b2e2f2de;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+
+.total {
+  background-color: #b2e2f2de !important;
+}
+
 /*# sourceMappingURL=style.css.map */
