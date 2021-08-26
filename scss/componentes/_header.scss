@@ -1,11 +1,27 @@
 @import '../base/variables';
 
 /* Inicio css header*/
-.navbar-nav {
-    align-items: center;
-}
+
 .bg-propio {
     background-color: $bg-navbar;
+}
+
+.dropdown-menu {
+    background-color: #b2e2f2de !important; 
+}
+.nav-item {
+   
+    .img-carrito {
+        width: 25px;
+        height: 25px;
+        margin: 0px 10px 0 5px;
+    }
+
+    .img-perfil {
+        width: 70px;
+        height: 70px;
+    }
+    
 }
 
 .container-fluid {
@@ -44,25 +60,15 @@
     }
 }
 
-
-.dropdown-menu {
-    background-color: #b2e2f2de !important; 
-}
-.nav-item {
-
-    .img-carrito {
-        width: 25px;
-        height: 25px;
-        margin: 0px 10px 0 5px;
-    }
-
-    .img-perfil {
-        width: 70px;
-        height: 70px;
-    }
-
+.align-propio {
+    align-self: flex-end;
 }
 
+@media only screen and (min-width: 1200px) {
+    .align-propio {
+        align-self: center;
+    }
+}   
 
 
 /* Fin css header */
