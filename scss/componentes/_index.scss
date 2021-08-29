@@ -14,18 +14,14 @@ $font-mont: 'Montserrat', sans-serif;
     text-align: center;
 }
 
+
 h2 {
     font-family: $font-mont;
     color: rgb(223, 223, 223);
     text-shadow: 1px 1px 1px black;
 }
 
-/* Mobile */
-@media only screen and (max-width: 400px) {
-    .h2, h2 {
-       font-size: 20px !important;
-    }
-}
+
 
 
 .slogan {
@@ -36,27 +32,6 @@ h2 {
     text-shadow: 1px 1px 1px black;
 }
 
- /* Mobile */
- @media only screen and (max-width: 400px) {
-    .slogan {
-       font-size: 17px !important;
-    }
-}
-
-/* Respuesta de carousel ante menú despegable*/
-@media only screen and (max-width: 1199px) {
-    .carousel {
-        padding-top: 47px;
-    }
-}
-
-@media only screen and (min-width: 1199px) {
-    .carousel {
-        padding-top: 77px;
-
-    }
-}
-/* Respuesta de carousel ante menú despegable*/
 
 /* Fin css section 1 */
 
@@ -80,3 +55,36 @@ h2 {
 
 }
 /* Fin section 2 */
+
+/* Media Queries Index */
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+    .h2, h2 {
+       font-size: 20px !important;
+    }
+
+    .slogan {
+        font-size: 17px !important;
+    }
+
+    .tittle-index {
+        font-size: 20px;
+    }
+    
+}
+
+/* Respuesta de carousel ante menú despegable*/
+@media only screen and (max-width: 1199px) {
+    .carousel {
+        padding-top: 47px;
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    .carousel {
+        padding-top: 77px;
+
+    }
+}
+/* Respuesta de carousel ante menú despegable*/
