@@ -18,28 +18,29 @@ body {
 .bg-propio {
   background-color: #b2e2f2de;
 }
-
-.dropdown-menu {
-  background-color: #b2e2f2de !important;
-}
-
-.nav-item .img-carrito {
-  width: 25px;
-  height: 25px;
-  margin: 0px 10px 0 5px;
-}
-.nav-item .img-perfil {
-  width: 70px;
-  height: 70px;
-}
-
-.container-fluid {
+.bg-propio .container-fluid {
   /* Mobile */
   /* Tablet */
   /* Desktop */
 }
+.bg-propio .container-fluid .navbar-nav .nav-item .img-carrito {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px 0 5px;
+}
+.bg-propio .container-fluid .navbar-nav .nav-item .dropdown-menu {
+  background-color: #b2e2f2de !important;
+}
+.bg-propio .container-fluid .navbar-nav .align-propio {
+  align-self: flex-end;
+}
+@media only screen and (min-width: 1200px) {
+  .bg-propio .container-fluid .navbar-nav .align-propio {
+    align-self: center;
+  }
+}
 @media only screen and (max-width: 400px) {
-  .container-fluid .logo {
+  .bg-propio .container-fluid .logo {
     width: 70px;
     height: 70px;
     position: fixed;
@@ -48,7 +49,7 @@ body {
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  .container-fluid .logo {
+  .bg-propio .container-fluid .logo {
     width: 100px;
     height: 100px;
     position: fixed;
@@ -57,7 +58,7 @@ body {
   }
 }
 @media only screen and (min-width: 961px) {
-  .container-fluid .logo {
+  .bg-propio .container-fluid .logo {
     width: 130px;
     height: 130px;
     position: fixed;
@@ -66,15 +67,6 @@ body {
   }
 }
 
-.align-propio {
-  align-self: flex-end;
-}
-
-@media only screen and (min-width: 1200px) {
-  .align-propio {
-    align-self: center;
-  }
-}
 /* Fin css header */
 /* Variables */
 /* Variables */
@@ -85,6 +77,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+  text-align: center;
 }
 
 h2 {
@@ -93,6 +86,12 @@ h2 {
   text-shadow: 1px 1px 1px black;
 }
 
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .h2, h2 {
+    font-size: 20px !important;
+  }
+}
 .slogan {
   font-family: "Montserrat", sans-serif;
   font-style: italic;
@@ -101,6 +100,12 @@ h2 {
   text-shadow: 1px 1px 1px black;
 }
 
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  .slogan {
+    font-size: 17px !important;
+  }
+}
 /* Respuesta de carousel ante menú despegable*/
 @media only screen and (max-width: 1199px) {
   .carousel {

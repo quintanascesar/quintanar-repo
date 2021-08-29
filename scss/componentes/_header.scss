@@ -3,72 +3,77 @@
 /* Inicio css header*/
 
 .bg-propio {
+
     background-color: $bg-navbar;
-}
 
-.dropdown-menu {
-    background-color: #b2e2f2de !important; 
-}
-.nav-item {
-   
-    .img-carrito {
-        width: 25px;
-        height: 25px;
-        margin: 0px 10px 0 5px;
-    }
+    .container-fluid {
 
-    .img-perfil {
-        width: 70px;
-        height: 70px;
-    }
+        .navbar-nav {
+
+            .nav-item {
+       
+                .img-carrito {
+                    width: 25px;
+                    height: 25px;
+                    margin: 0px 10px 0 5px;
+                }
+            
+                .dropdown-menu {
+                    background-color: $bg-navbar !important; 
+                }
+                
+            }
+            
+            .align-propio {
+                align-self: flex-end;
+            }
+            
+            @media only screen and (min-width: 1200px) {
+
+                .align-propio {
+                    align-self: center;
+                }
+            }   
+
+        }
     
-}
-
-.container-fluid {
-
-    /* Mobile */
-    @media only screen and (max-width: 400px) {
-        .logo {
-            width: 70px;
-            height: 70px;
-            position: fixed;
-            top: 10px;
-            left: 20px;
+        /* Mobile */
+        @media only screen and (max-width: 400px) {
+            .logo {
+                width: 70px;
+                height: 70px;
+                position: fixed;
+                top: 10px;
+                left: 20px;
+            }
+        }
+    
+        /* Tablet */
+        @media only screen and (min-width: 401px) and (max-width: 960px) {
+            .logo {
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                top: 10px;
+                left: 20px;
+            }
+        }
+    
+        /* Desktop */
+        @media only screen and (min-width: 961px) {
+            .logo {
+                width: 130px;
+                height: 130px;
+                position: fixed;
+                top: 10px;
+                left: 50px;
+            }
         }
     }
 
-    /* Tablet */
-    @media only screen and (min-width: 401px) and (max-width: 960px) {
-        .logo {
-            width: 100px;
-            height: 100px;
-            position: fixed;
-            top: 10px;
-            left: 20px;
-        }
-    }
-
-    /* Desktop */
-    @media only screen and (min-width: 961px) {
-        .logo {
-            width: 130px;
-            height: 130px;
-            position: fixed;
-            top: 10px;
-            left: 50px;
-        }
-    }
 }
 
-.align-propio {
-    align-self: flex-end;
-}
 
-@media only screen and (min-width: 1200px) {
-    .align-propio {
-        align-self: center;
-    }
-}   
 
 
 /* Fin css header */
