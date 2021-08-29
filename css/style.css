@@ -73,6 +73,7 @@ body {
 /* Inicio css section 1 */
 .tittle-index {
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   color: #605f5f;
   display: flex;
   justify-content: space-around;
@@ -124,7 +125,7 @@ h2 {
   }
 
   .tittle-index {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 /* Respuesta de carousel ante menú despegable*/
