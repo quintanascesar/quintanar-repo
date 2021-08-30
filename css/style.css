@@ -70,8 +70,23 @@ body {
 /* Fin css header */
 /* Variables */
 /* Variables */
-/* Inicio css section 1 */
-.tittle-index {
+section {
+  /* Inicio section 2 */
+  /* Fin section 2*/
+}
+section .carousel-caption h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #dfdfdf;
+  text-shadow: 1px 1px 1px black;
+}
+section .carousel-caption .slogan {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  color: #dfdfdf;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px black;
+}
+section .tittle-index {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #605f5f;
@@ -80,39 +95,21 @@ body {
   margin-top: 50px;
   text-align: center;
 }
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  color: #dfdfdf;
-  text-shadow: 1px 1px 1px black;
-}
-
-.slogan {
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  color: #dfdfdf;
-  font-size: 30px;
-  text-shadow: 1px 1px 1px black;
-}
-
-/* Fin css section 1 */
-/* Inicio section 2 */
-.contenedor-catalogo {
+section .contenedor-catalogo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.contenedor-catalogo .img-catalogo {
+section .contenedor-catalogo .img-catalogo {
   margin: 30px 50px 15px 50px;
   width: 300px;
   box-shadow: 2px 2px 10px #666;
   transition: all 1s;
 }
-.contenedor-catalogo .img-catalogo:hover {
+section .contenedor-catalogo .img-catalogo:hover {
   transform: scale(1.2);
 }
 
-/* Fin section 2 */
 /* Media Queries Index */
 /* Mobile */
 @media only screen and (max-width: 400px) {
