@@ -97,6 +97,7 @@ section .tittle-index {
   justify-content: space-around;
   margin-top: 50px;
   text-align: center;
+  font-size: calc(1.325rem + .9vw);
 }
 section .contenedor-catalogo {
   display: flex;
@@ -114,21 +115,6 @@ section .contenedor-catalogo .img-catalogo:hover {
 }
 
 /* Media Queries Index */
-/* Mobile */
-@media only screen and (max-width: 400px) {
-  .h2, h2 {
-    font-size: calc(1.325rem + .9vw);
-  }
-
-  .slogan {
-    font-size: calc(1rem + .9vw);
-  }
-
-  .tittle-index {
-    font-size: 22px;
-  }
-}
-/* Mobile */
 /* Respuesta de carousel ante menú despegable*/
 @media only screen and (max-width: 1199px) {
   .carousel {
