@@ -206,11 +206,15 @@ section .row .btn-position .signo-menos {
   position: relative;
   margin-top: -4px;
   margin-left: -1.5px;
+  font-family: "Montserrat", sans-serif;
+  color: #605f5f;
 }
 section .row .btn-position .signo-mas {
   position: relative;
-  margin-top: -5px;
-  margin-left: -3.5px;
+  margin-top: -3px;
+  margin-left: -2.2px;
+  font-family: "Montserrat", sans-serif;
+  color: #605f5f;
 }
 section .row .contador {
   font-family: "Montserrat", sans-serif;
