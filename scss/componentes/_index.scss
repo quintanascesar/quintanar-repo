@@ -12,13 +12,14 @@ section {
             font-family: $font-mont;
             color: rgb(223, 223, 223);
             text-shadow: 1px 1px 1px black;
+            font-size: calc(1.325rem + .9vw);
         }
         
         .slogan {
             font-family: $font-mont;
             font-style: italic;
             color: rgb(223, 223, 223);
-            font-size: 30px;
+            font-size: calc(1rem + .9vw);
             text-shadow: 1px 1px 1px black;
         }
     
@@ -68,7 +69,7 @@ section {
     }
 
     .slogan {
-        font-size: 17px !important;
+        font-size: calc(1rem + .9vw);
     }
 
     .tittle-index {

@@ -80,12 +80,13 @@ section .carousel-caption h2 {
   font-family: "Montserrat", sans-serif;
   color: #dfdfdf;
   text-shadow: 1px 1px 1px black;
+  font-size: calc(1.325rem + .9vw);
 }
 section .carousel-caption .slogan {
   font-family: "Montserrat", sans-serif;
   font-style: italic;
   color: #dfdfdf;
-  font-size: 30px;
+  font-size: calc(1rem + .9vw);
   text-shadow: 1px 1px 1px black;
 }
 section .tittle-index {
@@ -120,7 +121,7 @@ section .contenedor-catalogo .img-catalogo:hover {
   }
 
   .slogan {
-    font-size: 17px !important;
+    font-size: calc(1rem + .9vw);
   }
 
   .tittle-index {
