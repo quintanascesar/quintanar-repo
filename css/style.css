@@ -105,7 +105,7 @@ section .contenedor-catalogo {
   justify-content: center;
 }
 section .contenedor-catalogo .img-catalogo {
-  margin: 30px 50px 15px 50px;
+  margin: 30px 50px 50px 50px;
   box-shadow: 2px 2px 10px #666;
   transition: all 1s;
 }
@@ -216,6 +216,7 @@ section .row .contador {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-weight: 600;
 }
 section .row .btn-position1 {
   font-family: "Montserrat", sans-serif;
