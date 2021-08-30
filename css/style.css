@@ -89,7 +89,7 @@ section .carousel-caption .slogan {
   font-size: calc(1rem + 0.9vw);
   text-shadow: 1px 1px 1px black;
 }
-section .tittle-index {
+section .titulos {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #605f5f;
@@ -149,12 +149,8 @@ section .contenedor-catalogo .img-catalogo:hover {
 /* Fin css footer */
 /* Variables header */
 /* Variables header */
-section .tittle-store {
-  font-family: "Montserrat", sans-serif;
-  color: #605f5f;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 120px;
+section .mt-propio {
+  margin-top: 100px;
 }
 section .m-propio {
   margin-top: 30px;
@@ -187,17 +183,33 @@ section .row .card-text {
   color: #605f5f;
   padding: 0% 5% 0% 5%;
 }
-section .row .instruction-text {
-  font-size: 0.9rem;
-  font-family: "Montserrat", sans-serif;
-  color: #605f5f;
-  padding: 0% 5% 0% 5%;
+section .row .btn-menos {
+  color: black;
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.365);
+  box-shadow: 1px 1px 5px #666;
+}
+section .row .btn-menos:hover {
+  background-color: #dad9d9;
+}
+section .row .btn-menos:active {
+  border: green;
 }
 section .row .btn-position-menos {
   margin-bottom: 5px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+section .row .btn-position-menos .signo-menos {
+  position: relative;
+  margin-top: -4px;
+  margin-left: -1px;
+}
+section .row .btn-position-menos .signo-mas {
+  position: relative;
+  margin-top: -5px;
+  margin-left: -2.5px;
 }
 section .row .contador {
   font-family: "Montserrat", sans-serif;
