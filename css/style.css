@@ -195,18 +195,18 @@ section .row .btn-menos:hover {
 section .row .btn-menos:active {
   border: green;
 }
-section .row .btn-position-menos {
+section .row .btn-position {
   margin-bottom: 5px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-section .row .btn-position-menos .signo-menos {
+section .row .btn-position .signo-menos {
   position: relative;
   margin-top: -4px;
   margin-left: -1px;
 }
-section .row .btn-position-menos .signo-mas {
+section .row .btn-position .signo-mas {
   position: relative;
   margin-top: -5px;
   margin-left: -2.5px;
@@ -216,20 +216,6 @@ section .row .contador {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-section .row .btn-position-mas {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  margin-bottom: 5px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: space-around;
-}
-section .row .signo-menos {
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 10px;
 }
 section .row .btn-position1 {
   font-family: "Montserrat", sans-serif;

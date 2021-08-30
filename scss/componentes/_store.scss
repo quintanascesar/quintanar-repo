@@ -56,7 +56,7 @@ section {
             }
         }
 
-        .btn-position-menos {
+        .btn-position {
             margin-bottom: 5px;
             width: 30px;
             height: 30px;
@@ -79,22 +79,6 @@ section {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-        }
-
-        .btn-position-mas {
-            font-family: $font-mont;
-            color: white;
-            margin-bottom: 5px;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .signo-menos {
-            font-family: $font-mont;
-            margin-bottom: 10px;
         }
 
         .btn-position1 {
