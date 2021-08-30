@@ -71,6 +71,8 @@ body {
 /* Variables */
 /* Variables */
 section {
+  /* Inicio section 1 */
+  /* Fin section 1 */
   /* Inicio section 2 */
   /* Fin section 2*/
 }
@@ -114,7 +116,7 @@ section .contenedor-catalogo .img-catalogo:hover {
 /* Mobile */
 @media only screen and (max-width: 400px) {
   .h2, h2 {
-    font-size: 20px !important;
+    font-size: calc(1.325rem + .9vw);
   }
 
   .slogan {
@@ -125,6 +127,7 @@ section .contenedor-catalogo .img-catalogo:hover {
     font-size: 22px;
   }
 }
+/* Mobile */
 /* Respuesta de carousel ante menú despegable*/
 @media only screen and (max-width: 1199px) {
   .carousel {

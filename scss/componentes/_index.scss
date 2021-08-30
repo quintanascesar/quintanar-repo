@@ -5,6 +5,7 @@ $font-mont: 'Montserrat', sans-serif;
 
 section {
 
+    /* Inicio section 1 */
     .carousel-caption {
 
         h2 {
@@ -32,6 +33,7 @@ section {
         margin-top: 50px;
         text-align: center;
     }
+    /* Fin section 1 */
 
     /* Inicio section 2 */
     .contenedor-catalogo {
@@ -62,7 +64,7 @@ section {
 /* Mobile */
 @media only screen and (max-width: 400px) {
     .h2, h2 {
-       font-size: 20px !important;
+        font-size: calc(1.325rem + .9vw);
     }
 
     .slogan {
@@ -74,6 +76,7 @@ section {
     }
     
 }
+/* Mobile */
 
 /* Respuesta de carousel ante menú despegable*/
 @media only screen and (max-width: 1199px) {
