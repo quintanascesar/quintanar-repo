@@ -188,6 +188,7 @@ section .row .btn-menos {
   background-color: white;
   border-color: rgba(0, 0, 0, 0.365);
   box-shadow: 1px 1px 5px #666;
+  margin-inline-start: 7px;
 }
 section .row .btn-menos:hover {
   background-color: #dad9d9;
@@ -213,10 +214,8 @@ section .row .btn-position .signo-mas {
 }
 section .row .contador {
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   font-weight: 600;
+  margin-left: 18px;
 }
 section .row .btn-position1 {
   font-family: "Montserrat", sans-serif;

@@ -46,6 +46,7 @@ section {
             background-color: white;
             border-color: rgba(0, 0, 0, 0.365);
             box-shadow: 1px 1px 5px #666;
+            margin-inline-start: 7px;
 
             &:hover {
                 background-color: rgb(218, 217, 217);
@@ -75,11 +76,9 @@ section {
         }
 
         .contador {
-            font-family: $font-mont;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            font-family: "Montserrat", sans-serif;
             font-weight: 600;
+            margin-left: 18px;
         }
 
         .btn-position1 {
