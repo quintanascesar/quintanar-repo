@@ -80,13 +80,13 @@ section .carousel-caption h2 {
   font-family: "Montserrat", sans-serif;
   color: #dfdfdf;
   text-shadow: 1px 1px 1px black;
-  font-size: calc(1.325rem + .9vw);
+  font-size: calc(1.325rem + 0.9vw);
 }
 section .carousel-caption .slogan {
   font-family: "Montserrat", sans-serif;
   font-style: italic;
   color: #dfdfdf;
-  font-size: calc(1rem + .9vw);
+  font-size: calc(1rem + 0.9vw);
   text-shadow: 1px 1px 1px black;
 }
 section .tittle-index {
@@ -97,7 +97,7 @@ section .tittle-index {
   justify-content: space-around;
   margin-top: 50px;
   text-align: center;
-  font-size: calc(1.325rem + .9vw);
+  font-size: calc(1.325rem + 0.9vw);
 }
 section .contenedor-catalogo {
   display: flex;
