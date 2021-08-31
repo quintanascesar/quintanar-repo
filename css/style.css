@@ -360,28 +360,47 @@ section .row .card .btn-position1 {
   justify-content: center;
 }
 
-.btn-position-menos-carrito {
-  width: 25px;
-  height: 25px;
-  border-radius: 50% !important;
+.table .btn-menos {
+  color: black;
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.365);
+  box-shadow: 1px 1px 5px #666;
+  margin-inline-start: 7px;
 }
-
-.btn-position-mas-carrito {
-  width: 25px;
-  height: 25px;
-  border-radius: 50% !important;
+.table .btn-menos:hover {
+  background-color: #dad9d9;
 }
-
-.bg-enc-tab {
+.table .btn-menos:active {
+  border: black;
+}
+.table .btn-position {
+  margin-bottom: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.table .btn-position .signo-menos {
+  position: relative;
+  margin-top: -4px;
+  margin-left: -1.5px;
+  font-family: "Montserrat", sans-serif;
+  color: #605f5f;
+}
+.table .btn-position .signo-mas {
+  position: relative;
+  margin-top: -3px;
+  margin-left: -2.2px;
+  font-family: "Montserrat", sans-serif;
+  color: #605f5f;
+}
+.table .bg-enc-tab {
   background-color: #b2e2f2de;
   text-align: center;
 }
-
-tr {
+.table tr {
   text-align: center;
 }
-
-.total {
+.table .total {
   background-color: #b2e2f2de !important;
 }
 
