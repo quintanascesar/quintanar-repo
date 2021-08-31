@@ -1,18 +1,6 @@
 $font-mont: 'Montserrat', sans-serif;
 
-/* Respuesta de card ante menú despegable*/
-@media only screen and (max-width: 1199px) {
-    .m-propio-2 {
-        margin-top: 20%;
-    }
-}
 
-@media only screen and (min-width: 1199px) {
-    .m-propio-2 {
-        margin-top: 10%;
-    }
-}
-/* Respuesta de card ante menú despegable*/
 
 .contenedor {
     height: 100vh;
@@ -67,3 +55,17 @@ $font-mont: 'Montserrat', sans-serif;
         max-width: 700px;
     }
 }
+
+/* Respuesta de card ante menú despegable*/
+@media only screen and (max-width: 1199px) {
+    .m-propio-2 {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    .m-propio-2 {
+        margin-top: 10%;
+    }
+}
+/* Respuesta de card ante menú despegable*/

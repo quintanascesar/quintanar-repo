@@ -238,18 +238,6 @@ section .row .card .btn-position1 {
 }
 
 /* Ddesafío Clase 12 - Aplicando SASS Operaciones/Mapas */
-/* Respuesta de card ante menú despegable*/
-@media only screen and (max-width: 1199px) {
-  .m-propio-2 {
-    margin-top: 20%;
-  }
-}
-@media only screen and (min-width: 1199px) {
-  .m-propio-2 {
-    margin-top: 10%;
-  }
-}
-/* Respuesta de card ante menú despegable*/
 .contenedor {
   height: 100vh;
   width: 100%;
@@ -296,6 +284,18 @@ section .row .card .btn-position1 {
     max-width: 700px;
   }
 }
+/* Respuesta de card ante menú despegable*/
+@media only screen and (max-width: 1199px) {
+  .m-propio-2 {
+    margin-top: 20%;
+  }
+}
+@media only screen and (min-width: 1199px) {
+  .m-propio-2 {
+    margin-top: 10%;
+  }
+}
+/* Respuesta de card ante menú despegable*/
 .quienes-somos {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
@@ -305,6 +305,7 @@ section .row .card .btn-position1 {
 }
 .quienes-somos .titulo-nosotros {
   font-family: "Montserrat", sans-serif;
+  text-align: left;
   flex: 1 1 auto;
   padding: 1rem 2rem;
 }
