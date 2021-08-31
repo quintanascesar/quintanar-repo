@@ -311,7 +311,7 @@ section .row .card .btn-position1 {
 .quienes-somos .leyenda-nosotros {
   font-family: "Montserrat", sans-serif;
   flex: 1 1 auto;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 5rem 0;
 }
 
 @media (min-width: 1200px) {
