@@ -162,7 +162,7 @@ section .row .card {
   box-shadow: 2px 2px 10px #666;
   border-radius: 5px;
 }
-section .row .product-tittle {
+section .row .card .product-tittle {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
@@ -170,58 +170,58 @@ section .row .product-tittle {
   text-align: center;
   padding: 0% 5% 0% 5%;
 }
-section .row .price-tittle {
+section .row .card .price-tittle {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
   margin-top: 3%;
   text-align: center;
 }
-section .row .card-text {
+section .row .card .card-text {
   font-size: 0.9rem;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
   padding: 0% 5% 0% 5%;
 }
-section .row .btn-menos {
+section .row .card .btn-menos {
   color: black;
   background-color: white;
   border-color: rgba(0, 0, 0, 0.365);
   box-shadow: 1px 1px 5px #666;
   margin-inline-start: 7px;
 }
-section .row .btn-menos:hover {
+section .row .card .btn-menos:hover {
   background-color: #dad9d9;
 }
-section .row .btn-menos:active {
-  border: green;
+section .row .card .btn-menos:active {
+  border: black;
 }
-section .row .btn-position {
+section .row .card .btn-position {
   margin-bottom: 5px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-section .row .btn-position .signo-menos {
+section .row .card .btn-position .signo-menos {
   position: relative;
   margin-top: -4px;
   margin-left: -1.5px;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
 }
-section .row .btn-position .signo-mas {
+section .row .card .btn-position .signo-mas {
   position: relative;
   margin-top: -3px;
   margin-left: -2.2px;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
 }
-section .row .contador {
+section .row .card .contador {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   margin-left: 18px;
 }
-section .row .btn-position1 {
+section .row .card .btn-position1 {
   font-family: "Montserrat", sans-serif;
   color: white;
   margin-bottom: 5px;
