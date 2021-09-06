@@ -360,6 +360,10 @@ section .row .card .btn-position1 {
   justify-content: center;
 }
 
+.h-propio {
+  height: 100%;
+}
+
 .table .btn-menos {
   color: black;
   background-color: white;
@@ -412,16 +416,6 @@ section .row .card .btn-position1 {
 
   td {
     font-size: 12px;
-  }
-}
-/* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  .logo {
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    top: 10px;
-    left: 20px;
   }
 }
 
