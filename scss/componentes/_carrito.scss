@@ -1,60 +1,82 @@
-.contenedor {
-    height: 100vh;
 
-    .card-body {
 
-        .table {
-            
-            .btn-menos {
-                color: black;
-                background-color: white;
-                border-color: rgba(0, 0, 0, 0.365);
-                box-shadow: 1px 1px 5px #666;
-                margin-inline-start: 7px;
 
-                &:hover {
-                    background-color: rgb(218, 217, 217);
-                }
 
-                &:active {
-                    border: black;
-                }
-            }
+.table {
 
-            .btn-position {
-                margin-bottom: 5px;
-                width: 30px;
-                height: 30px;
-                border-radius: 50%;
 
-                .signo-menos {
-                    position: relative;
-                    margin-top: -4px;
-                    margin-left: -1.5px;
-                    font-family: $font-mont;
-                    color: $color-font-card;
-                }
-                .signo-mas {
-                    position: relative;
-                    margin-top: -3px;
-                    margin-left: -2.2px;
-                    font-family: $font-mont;
-                    color: $color-font-card;
-                }
-            }
+    .btn-menos {
+        color: black;
+        background-color: white;
+        border-color: rgba(0, 0, 0, 0.365);
+        box-shadow: 1px 1px 5px #666;
+        margin-inline-start: 7px;
 
-            .bg-enc-tab {
-                background-color: #b2e2f2de;
-                text-align: center;
-            }
-
-            tr {
-                text-align: center;
-            }
-
-            .total {
-                background-color: #b2e2f2de !important;
-            }
+        &:hover {
+            background-color: rgb(218, 217, 217);
         }
+
+        &:active {
+            border: black;
+        }
+    }
+
+    .btn-position {
+        margin-bottom: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+
+        .signo-menos {
+            position: relative;
+            margin-top: -4px;
+            margin-left: -1.5px;
+            font-family: $font-mont;
+            color: $color-font-card;
+        }
+        .signo-mas {
+            position: relative;
+            margin-top: -3px;
+            margin-left: -2.2px;
+            font-family: $font-mont;
+            color: $color-font-card;
+        }
+    }
+
+    .bg-enc-tab {
+        background-color: #b2e2f2de;
+        text-align: center;
+    }
+
+    tr {
+        text-align: center;
+    }
+
+    .total {
+        background-color: #b2e2f2de !important;
+    }
+}
+
+
+ /* Mobile */
+ @media only screen and (max-width: 452px) {
+    th {
+        font-size: 12px;
+    }
+
+    td {
+        font-size: 12px;
+    }
+    
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 10px;
+        left: 20px;
     }
 }

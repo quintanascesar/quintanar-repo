@@ -360,51 +360,69 @@ section .row .card .btn-position1 {
   justify-content: center;
 }
 
-.contenedor {
-  height: 100vh;
-}
-.contenedor .card-body .table .btn-menos {
+.table .btn-menos {
   color: black;
   background-color: white;
   border-color: rgba(0, 0, 0, 0.365);
   box-shadow: 1px 1px 5px #666;
   margin-inline-start: 7px;
 }
-.contenedor .card-body .table .btn-menos:hover {
+.table .btn-menos:hover {
   background-color: #dad9d9;
 }
-.contenedor .card-body .table .btn-menos:active {
+.table .btn-menos:active {
   border: black;
 }
-.contenedor .card-body .table .btn-position {
+.table .btn-position {
   margin-bottom: 5px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-.contenedor .card-body .table .btn-position .signo-menos {
+.table .btn-position .signo-menos {
   position: relative;
   margin-top: -4px;
   margin-left: -1.5px;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
 }
-.contenedor .card-body .table .btn-position .signo-mas {
+.table .btn-position .signo-mas {
   position: relative;
   margin-top: -3px;
   margin-left: -2.2px;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
 }
-.contenedor .card-body .table .bg-enc-tab {
+.table .bg-enc-tab {
   background-color: #b2e2f2de;
   text-align: center;
 }
-.contenedor .card-body .table tr {
+.table tr {
   text-align: center;
 }
-.contenedor .card-body .table .total {
+.table .total {
   background-color: #b2e2f2de !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 452px) {
+  th {
+    font-size: 12px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
