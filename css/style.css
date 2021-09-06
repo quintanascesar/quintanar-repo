@@ -136,13 +136,11 @@ section .contenedor-catalogo .img-catalogo:hover {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
 }
-
-.img-redes {
+.navbarf .img-redes {
   width: 30px;
   height: 30px;
 }
-
-.img-mp {
+.navbarf .img-mp {
   width: 100px;
 }
 
