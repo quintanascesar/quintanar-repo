@@ -360,47 +360,50 @@ section .row .card .btn-position1 {
   justify-content: center;
 }
 
-.table .btn-menos {
+.contenedor {
+  height: 100vh;
+}
+.contenedor .card-body .table .btn-menos {
   color: black;
   background-color: white;
   border-color: rgba(0, 0, 0, 0.365);
   box-shadow: 1px 1px 5px #666;
   margin-inline-start: 7px;
 }
-.table .btn-menos:hover {
+.contenedor .card-body .table .btn-menos:hover {
   background-color: #dad9d9;
 }
-.table .btn-menos:active {
+.contenedor .card-body .table .btn-menos:active {
   border: black;
 }
-.table .btn-position {
+.contenedor .card-body .table .btn-position {
   margin-bottom: 5px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
-.table .btn-position .signo-menos {
+.contenedor .card-body .table .btn-position .signo-menos {
   position: relative;
   margin-top: -4px;
   margin-left: -1.5px;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
 }
-.table .btn-position .signo-mas {
+.contenedor .card-body .table .btn-position .signo-mas {
   position: relative;
   margin-top: -3px;
   margin-left: -2.2px;
   font-family: "Montserrat", sans-serif;
   color: #605f5f;
 }
-.table .bg-enc-tab {
+.contenedor .card-body .table .bg-enc-tab {
   background-color: #b2e2f2de;
   text-align: center;
 }
-.table tr {
+.contenedor .card-body .table tr {
   text-align: center;
 }
-.table .total {
+.contenedor .card-body .table .total {
   background-color: #b2e2f2de !important;
 }
 
