@@ -359,7 +359,7 @@ section .row .card .btn-position1 {
 }
 
 .h-propio {
-  height: 100%;
+  height: 100vh;
 }
 
 .table .btn-menos {
